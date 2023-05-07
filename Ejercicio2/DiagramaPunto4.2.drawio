@@ -1,0 +1,220 @@
+<mxfile host="app.diagrams.net" modified="2023-05-06T01:28:49.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="U16Bvc36VKS9ROgjAmKg" version="21.2.9" type="device">
+  <diagram name="Página-1" id="MdXrSTDtdhL5v_uem5Xm">
+    <mxGraphModel dx="1194" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-1" value="Usuario&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="90" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-2" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Controlador&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="81" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="51" y="190" width="10" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="302" y="189" width="10" height="651" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="543" y="340" width="10" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Ingresa la opcion: &quot;Canjear Millas&quot;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="61" y="225" as="sourcePoint" />
+            <mxPoint x="301" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-7" value="Viajero" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="742" y="90" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-8" value="Interfaz" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="90" width="79" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="770" y="400" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Solicita numero de Viajero&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="301" y="252" as="sourcePoint" />
+            <mxPoint x="61" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-11" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Solicita la Cantidad de Millas a Canjear&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="301" y="280" as="sourcePoint" />
+            <mxPoint x="61" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Ingresa el Numero de Viajero y las Millas&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="310" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-13" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Buscar Numero de Viajero&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="315" y="384" as="sourcePoint" />
+            <mxPoint x="541" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-14" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="41" y="321" width="759" height="499" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;[Si encuentra el numero de Viajero]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="98" y="317" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-16" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Verifica Si es Posible Canjear Millas&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0016" width="80" relative="1" as="geometry">
+            <mxPoint x="557" y="460" as="sourcePoint" />
+            <mxPoint x="767" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-17" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Return&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="766" y="481.5" as="sourcePoint" />
+            <mxPoint x="556" y="481.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-18" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Return&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="543" y="543.5" as="sourcePoint" />
+            <mxPoint x="312" y="543.8333333333335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-19" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Mostrar Nuevo Valor de Millas&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=-0.2;exitY=0.595;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="302" y="556.9999999999999" as="sourcePoint" />
+            <mxPoint x="61" y="557.15" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="311" y="557.15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-20" value="" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="42" y="675" as="sourcePoint" />
+            <mxPoint x="802" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-21" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#d5e8d4;strokeColor=#7EAD63;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="307" y="327" width="250" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-22" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Return&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="544" y="409.75" as="sourcePoint" />
+            <mxPoint x="313" y="410.0833333333335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-23" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Buscar Numero de Viajero&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="315" y="733" as="sourcePoint" />
+            <mxPoint x="541" y="733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-24" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#d5e8d4;strokeColor=#7EAD63;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="306" y="685" width="250" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-25" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Return&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="543" y="756.75" as="sourcePoint" />
+            <mxPoint x="312" y="757.0833333333335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-26" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;No se encontro el numero de Viajero Ingresado&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=-0.2;exitY=0.595;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="302" y="795.9999999999999" as="sourcePoint" />
+            <mxPoint x="61" y="796.15" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="311" y="796.15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-28" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="435" width="740" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-30" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;[ Es Posible Canjear Millas ]&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="433" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-33" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Canjear Millas&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0016" width="80" relative="1" as="geometry">
+            <mxPoint x="556" y="509.5" as="sourcePoint" />
+            <mxPoint x="766" y="509.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-34" value="" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="570" as="sourcePoint" />
+            <mxPoint x="790" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-35" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Verifica Si es Posible Canjear Millas&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0016" width="80" relative="1" as="geometry">
+            <mxPoint x="556" y="598" as="sourcePoint" />
+            <mxPoint x="766" y="598" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-36" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Return&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="765" y="618.5" as="sourcePoint" />
+            <mxPoint x="555" y="618.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-37" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Return&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="542.5" y="632" as="sourcePoint" />
+            <mxPoint x="311.5" y="632.3333333333335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-38" value="&lt;span style=&quot;&quot;&gt;No es Posible Canjear Esa Cantidad de millas&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=-0.2;exitY=0.595;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="302" y="647.9999999999999" as="sourcePoint" />
+            <mxPoint x="61" y="648.15" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="311" y="648.15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-39" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Return&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="765" y="532.5" as="sourcePoint" />
+            <mxPoint x="555" y="532.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-40" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;[Hasta que lo encuentre o no haya mas]&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="330" width="158" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-41" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;[Hasta que lo encuentre o no haya mas]&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371" y="686" width="158" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308" y="190" as="sourcePoint" />
+            <mxPoint x="308" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="f0mjlMpapd-NHrAtM5mh-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55.760000000000005" y="190" as="sourcePoint" />
+            <mxPoint x="55.760000000000005" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="f0mjlMpapd-NHrAtM5mh-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547.76" y="190" as="sourcePoint" />
+            <mxPoint x="547.76" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0mjlMpapd-NHrAtM5mh-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="f0mjlMpapd-NHrAtM5mh-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="774.76" y="188" as="sourcePoint" />
+            <mxPoint x="774.76" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
